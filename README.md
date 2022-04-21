@@ -1,8 +1,8 @@
-### React & Express Full Stack Template
+# React & Express Full Stack Template
 
 Full Stack Template using _React_ and _Express_ that has user authentication using _jwt_. The application uses _Mongoose_ & _MongoDB_ for the database.
 
-### Prerequisites
+## Prerequisites
 
 Install the dependencies using `npm install` and then create a **.env** file in the root folder.
 
@@ -30,7 +30,7 @@ JWT_SECRET = BV9G9MAV6LYD8U6YIBS07AYHVB8QOXF2
 
 &nbsp;
 
-### Package.json Scripts
+## Package.json Scripts
 
 | Scripts          | Description                   |
 | ---------------- | ----------------------------- |
