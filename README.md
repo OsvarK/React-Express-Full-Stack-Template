@@ -34,7 +34,6 @@ JWT_SECRET = BV9G9MAV6LYD8U6YIBS07AYHVB8QOXF2
 
 | Scripts          | Description                   |
 | ---------------- | ----------------------------- |
-| npm install      | Installs dependencies         |
 | npm run frontend | Runs the frontend in dev mode |
 | npm run backend  | Runs the backend              |
 | npm run build    | Builds the frontend           |
