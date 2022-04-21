@@ -1,6 +1,7 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
+// Loads the variables from the .env file and exports them.
 module.exports = {
     mongodb: {
         database_url: process.env.MONGODB_DATABASE_URL,
