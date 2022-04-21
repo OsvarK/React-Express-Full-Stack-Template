@@ -40,16 +40,3 @@ JWT_SECRET = BV9G9MAV6LYD8U6YIBS07AYHVB8QOXF2
 | npm run build    | Builds the frontend           |
 
 To run the application in production mode, run `npm run build` then `npm run backend`, now you can view it in the browser!
-
-&nbsp;
-&nbsp;
-
-### User Authentication Routes
-
-| Method | Route            | Description                  |
-| ------ | ---------------- | ---------------------------- |
-| POST   | /api/auth/login  | Login using email & password |
-| POST   | /api/auth/signup | Create a new account         |
-| GET    | /api/auth/logout | Logout                       |
-| GET    | /api/auth/verify | Verify logged in account     |
-| DELETE | /api/auth/delete | Delete current account       |
