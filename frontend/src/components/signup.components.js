@@ -8,7 +8,6 @@ const SignupForm = () => {
 
     useEffect(() => {
         inputRef.current['email'].focus()
-
         inputRef.current['email'].value = '';
         inputRef.current['firstname'].value = '';
         inputRef.current['lastname'].value = '';
