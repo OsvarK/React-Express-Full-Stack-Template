@@ -1,7 +1,6 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
-// Loads the variables from the .env file and exports them.
 module.exports = {
     mongodb: {
         database_url: process.env.MONGODB_DATABASE_URL,
@@ -9,7 +8,8 @@ module.exports = {
     },
     secrets: {
         hash: process.env.HASH_SECRET,
-        jwt: process.env.JWT_SECRET
+        jwt: process.env.JWT_SECRET,
+        admin: process.env.ADMIN_SECRET
     },
     react_build_folder: process.env.REACT_BUILD_FOLDER
 };
