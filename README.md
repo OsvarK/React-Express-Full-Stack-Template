@@ -8,21 +8,19 @@ Install the dependencies using `npm install` and then create a **.env** file in 
 
 These parameters are mandatory in the **.env** file.
 
-| Parameters            | Description                                                 |
-| --------------------- | ----------------------------------------------------------- |
-| REACT_BUILD_FOLDER    | Points to the dist folder. default as: **../frontend/dist** |
-| MONGODB_DATABASE_URL  | Connection string to your MongoDB                           |
-| MONGODB_DATABASE_NAME | Name of the Database in MongoDB                             |
-| HASH_SECRET           | Random string used for hasing, (your secret)                |
-| JWT_SECRET            | Random string used for jwt, (your secret)                   |
-| ADMIN_SECRET          | Bearer token for admin api calls, (your secret)             |
+| Parameters            | Description                                     |
+| --------------------- | ----------------------------------------------- |
+| MONGODB_DATABASE_URL  | Connection string to your MongoDB               |
+| MONGODB_DATABASE_NAME | Name of the Database in MongoDB                 |
+| HASH_SECRET           | Random string used for hasing, (your secret)    |
+| JWT_SECRET            | Random string used for jwt, (your secret)       |
+| ADMIN_SECRET          | Bearer token for admin api calls, (your secret) |
 
 &nbsp;
 
 ###### Example of how the file would look like:
 
 ```
-REACT_BUILD_FOLDER = ../frontend/dist
 MONGODB_DATABASE_URL = mongodb://username:password@host:port/database?options...
 MONGODB_DATABASE_NAME = myDatabase
 HASH_SECRET = BNTI7KCUJL5N4MSNVY6DBH5RL1M469M5
