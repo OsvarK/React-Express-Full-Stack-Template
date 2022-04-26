@@ -32,10 +32,11 @@ router.use((req, res, next) => {
 // Routes
 router.use('/api/auth', require('./src/routes/user.routes'));
 
-// Entry point
-router.use(express.static(path.resolve(__dirname, config.react_build_folder)))
+// Entry point and static folder
+router.use(express.static(path.join(__dirname, 'public'), {}))
+router.use(express.static(path.join(__dirname, 'public/dist'), {}))
 router.get('*', (_req, res) => {
-    res.sendFile(path.resolve(__dirname, config.react_build_folder) + '/index.html');
+    res.sendFile(path.join(__dirname, 'public/dist/index.html'));
 });
 
 // Error handling, Request not found
